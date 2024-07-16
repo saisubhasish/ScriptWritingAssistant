@@ -27,7 +27,7 @@ def analyze_script_suggestion_using_bedrock(script_content:str)->str:
         response_content = response.get('body').read()
         response_data = json.loads(response_content)
         print(response_data)
-        suggestions = response_data['generation']
+        suggestions = response_data['outputs'][0]['text']
         return suggestions
     
     except Exception as e:
