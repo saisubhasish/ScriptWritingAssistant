@@ -6,7 +6,7 @@ from datetime import datetime
 
 def analyze_script_suggestion_using_bedrock(script_content:str)->str:
     ANALYZE_SCRIPT_PROMPT = f"""<s>[INST] Human: You are an intelligent script reviewer responsible to analyze the structure and
-                                content of the script: {script_content}. Then do provide a precize suggestion for improvements.
+                                content of the script: {script_content}. Please provide a precize suggestion for improvements.
                                 Assistant:[/INST]
                                 """
     body={

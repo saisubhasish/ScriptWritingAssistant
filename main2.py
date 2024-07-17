@@ -5,7 +5,7 @@ from datetime import datetime
 
 
 def generate_finalize_script_using_bedrock(improved_script_content:str, suggestion:str)->str:
-    FINALIZE_SCRIPT_PROMPT = f"""<s>[INST] Human: You are an intelligent script writer. Responsible to writer finalyze script by 
+    FINALIZE_SCRIPT_PROMPT = f"""<s>[INST] Human: You are an intelligent script writer, responsible to write finalyze script by 
                                 analyzing your previous suggestion and improved script written by human. Now analyze the 
                                 structure and content of the improved script: {improved_script_content} and your previous 
                                 suggestion {suggestion}. Then provide only finalize script without any unnecessary talk.
