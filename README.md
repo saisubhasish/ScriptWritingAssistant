@@ -3,7 +3,7 @@
 ## Overview
 The Script Writing Assistant is an interactive tool designed to help users draft and finalize scripts. The platform leverages Streamlit for the user interface, FastAPI for backend APIs, and AWS Bedrock for script analysis and generation.
 
-Flow diagram
+#### Flow diagram
 
 ![Screenshot 2024-07-16 150037](https://github.com/user-attachments/assets/56aa4c27-1883-4811-ba5a-329d7b015a4b)
 
@@ -23,8 +23,8 @@ Flow diagram
 ## Setup
 1. Clone the repository:
 ```
-git clone https://github.com/your-repo/script-writing-assistant.git
-cd script-writing-assistant
+git clone https://github.com/saisubhasish/ScriptWritingAssistant.git
+cd ScriptWritingAssistant
 ```
 
 2. Create environment
